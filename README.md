@@ -45,8 +45,8 @@ Duplicate IP addresses are automatically highlighted using different colors.
 Clone the repository:
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+https://github.com/anmolbagul/URLs_to_IP_Resolver.git
+cd URLs_to_IP_Resolver
 ```
 
 (Optional) Create a virtual environment:
@@ -91,9 +91,7 @@ python3 resolve_urls.py -i urls.txt -o nslookup_results.xlsx
 ### Example
 
 ```bash
-python3 resolve_urls.py \
-    -i urls.txt \
-    -o results.xlsx
+python3 resolve_urls.py -i urls.txt -o results.xlsx
 ```
 
 ## Notes
